@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static website</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <hedder class="hedder">
+      <img src="abc" width="50px" height="50px" alt="logo" />
+      <img src="abc" width="50px" height="50px" alt="logo" />
+    </hedder>
+    <div class="navbar_container">
+      <ul>
+        <li>
+          <a href="#home"> Home</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+        <li>
+          <a href="#services">Services</a>
+        </li>
+      </ul>
+    </div>
+
+    <main>
+      <section class="home">
+        <h1>Welcome to HTML</h1>
+        <form name="watch_brand">
+          <label for="watch_brand">Select Watch Brand</label>
+          <select name="watch_brand">
+            <option value="sonata">Sonata WT-356</option>
+            <option value="casio">Casio</option>
+            <option value="fosil">Fosil</option>
+            <option value="hmt">HMT</option>
+          </select>
+
+          <label for="watch_name">Select Watch</label>
+          <select name="watch_name">
+            <option value="sonata">Sonata ET</option>
+            <option value="casio">Casio WT-1290</option>
+            <option value="fosil">Fosil summer collection</option>
+            <option value="hmt">HMT b789</option>
+          </select>
+          <label for="user_name">Full Name</label>
+          <input type="text" name="user_name" />
+
+          <label for="user_address">Full Address</label>
+          <input type="text" name="user_address" />
+
+          <label for="email">Email</label>
+          <input type="email" name="email" />
+
+          <label for="email">Password</label>
+          <input type="password" name="email" />
+          <div></div>
+          <input type="submit" value="submit" class="submit_button" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <section id="home" class="home">
+        <h1>Home</h1>
+        <p>please check home</p>
+      </section>
+      <section id="contact" class="contact">
+        <h1>Contact us</h1>
+        <p>We are delivering high qulity watches and giving services</p>
+      </section>
+      <section id="services" class="services">
+        <h1>Services</h1>
+        <p>Watch Shopping</p>
+        <p>Watch Services</p>
+        <p>Watch Replacement</p>
+        <p>Watch Payback</p>
+      </section>
+
+      <section id="about" class="about">
+        <h1>About us</h1>
+        <p>Please contact custemer care if you have any queries</p>
+      </section>
+    </footer>
+  </body>
+</html>
